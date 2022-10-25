@@ -8,9 +8,9 @@
   const scoreLabel = document.querySelector('#result > p');
 
   const quizSet = shuffle([
-    {q: '世界で一番大きな湖は？', c: ['カスピ海', 'カリブ海', '琵琶湖']},
-    {q: '2の8乗は？', c: ['256', '64', '1024']},
-    {q: '次のうち、最初にリリースされた言語は？', c: ['Python', 'javaScript', 'HTML']},
+    {q: '世界で一番使われているスマホは？', c: ['Galaxy', 'iPhone', 'yamaguchi']},
+    {q: '世界一高い山は？', c: ['エベレスト', '山口', '富士山']},
+    {q: '日本で一番売れたアーティストは？', c: ["B'Z", 'AKB48', '山口']},
   ]);
   let currentNum = 0;
   let isAnswered;
